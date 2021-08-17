@@ -1,0 +1,1 @@
+{"name":"Local: yetanother","url":"d:\\Visual studio\\.vscode\\C++\\OOP\\Dynamic Programming\\yetanother.cpp","tests":[{"id":1620818173814,"input":"5\n2 1 49\n5 20 50\n6 20 50\n5 3 8\n9 13 22\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Visual studio\\.vscode\\C++\\OOP\\Dynamic Programming\\yetanother.cpp","group":"local","local":true}

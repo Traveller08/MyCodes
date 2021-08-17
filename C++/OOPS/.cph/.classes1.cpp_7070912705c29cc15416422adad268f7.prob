@@ -1,0 +1,1 @@
+{"name":"Local: classes1","url":"d:\\Visual studio\\.vscode\\C++\\OOPS\\classes1.cpp","tests":[{"id":1621082625791,"input":"10\n1 97\n2\n1 20\n2\n1 26\n1 20\n2\n3\n1 91\n3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Visual studio\\.vscode\\C++\\OOPS\\classes1.cpp","group":"local","local":true}

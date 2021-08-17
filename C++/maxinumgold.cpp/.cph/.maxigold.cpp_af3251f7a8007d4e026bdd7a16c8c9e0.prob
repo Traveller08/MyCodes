@@ -1,0 +1,1 @@
+{"name":"Local: maxigold","url":"d:\\Visual studio\\.vscode\\C++\\maxinumgold.cpp\\maxigold.cpp","tests":[{"id":1617637983719,"input":"6\n1 2 6 6 6 9\n6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Visual studio\\.vscode\\C++\\maxinumgold.cpp\\maxigold.cpp","group":"local","local":true}

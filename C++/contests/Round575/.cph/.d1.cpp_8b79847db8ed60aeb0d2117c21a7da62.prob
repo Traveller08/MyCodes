@@ -1,0 +1,1 @@
+{"name":"Local: d1","url":"d:\\Visual studio\\.vscode\\C++\\contests\\Round575\\d1.cpp","tests":[{"id":1622002823466,"input":"3\n5 2\nBGGGG\n5 3\nRBRGR\n5 5\nBBBRR\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Visual studio\\.vscode\\C++\\contests\\Round575\\d1.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: Watermelon","url":"d:\\Visual studio\\.vscode\\C++\\ladderSeries\\Ladder-4\\Watermelon.cpp","tests":[{"id":1616299724118,"input":"2\n5 1\nABCAA\n4 2\nABAA","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Visual studio\\.vscode\\C++\\ladderSeries\\Ladder-4\\Watermelon.cpp","group":"local","local":true}

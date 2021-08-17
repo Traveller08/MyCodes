@@ -1,0 +1,1 @@
+{"name":"Local: longjumps","url":"d:\\Visual studio\\.vscode\\C++\\contests\\longjumps.cpp","tests":[{"id":1619780103592,"input":"4\n5\n7 3 1 2 3\n3\n2 1 4\n6\n2 1000 2 3 995 1\n5\n1 1 1 1 1\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Visual studio\\.vscode\\C++\\contests\\longjumps.cpp","group":"local","local":true}

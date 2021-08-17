@@ -1,0 +1,1 @@
+{"name":"Local: wipl","url":"d:\\Visual studio\\.vscode\\C++\\graphs\\wipl.cpp","tests":[{"id":1619849516449,"input":"2\n8 38\n7 8 19 7 8 7 10 20\n4 5\n2 10 4 9","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Visual studio\\.vscode\\C++\\graphs\\wipl.cpp","group":"local","local":true}

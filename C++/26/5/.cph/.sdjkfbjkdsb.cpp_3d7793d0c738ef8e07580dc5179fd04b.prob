@@ -1,0 +1,1 @@
+{"name":"Local: sdjkfbjkdsb","url":"d:\\Visual studio\\.vscode\\C++\\26\\5\\sdjkfbjkdsb.cpp","tests":[{"id":1622211043058,"input":"3\n3\n1 2 3 4 5 6\n2\n123 456 789 10\n1\n6 9","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Visual studio\\.vscode\\C++\\26\\5\\sdjkfbjkdsb.cpp","group":"local","local":true}

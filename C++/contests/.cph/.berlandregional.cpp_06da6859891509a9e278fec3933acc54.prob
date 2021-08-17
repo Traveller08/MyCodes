@@ -1,0 +1,1 @@
+{"name":"Local: berlandregional","url":"d:\\Visual studio\\.vscode\\C++\\contests\\berlandregional.cpp","tests":[{"id":1619711287450,"input":"2\n6\n3 3 3 3 3 3\n5 9 6 7 9 7\n1\n1\n3083","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Visual studio\\.vscode\\C++\\contests\\berlandregional.cpp","group":"local","local":true}

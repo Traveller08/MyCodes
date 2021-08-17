@@ -1,0 +1,1 @@
+{"name":"Local: fire_escape_routes","url":"d:\\Visual studio\\.vscode\\C++\\26\\5\\fire_escape_routes.cpp","tests":[{"id":1622038375494,"input":"3\n4 2\n1 2\n2 3\n5 3\n1 2\n2 3\n1 3\n6 3\n1 2\n3 4\n5 6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Visual studio\\.vscode\\C++\\26\\5\\fire_escape_routes.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: strangelist","url":"d:\\Visual studio\\.vscode\\C++\\strangelist.cpp","tests":[{"id":1619599640977,"input":"2\n1 2\n12\n4 2\n4 6 8 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Visual studio\\.vscode\\C++\\strangelist.cpp","group":"local","local":true}

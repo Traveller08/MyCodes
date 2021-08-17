@@ -1,0 +1,1 @@
+{"name":"Local: move_brackets","url":"d:\\Visual studio\\.vscode\\C++\\contests\\Round#653\\move_brackets.cpp","tests":[{"id":1621749009061,"input":"4\n2\n)(\n4\n()()\n8\n())()()(\n10\n)))((((())\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Visual studio\\.vscode\\C++\\contests\\Round#653\\move_brackets.cpp","group":"local","local":true}

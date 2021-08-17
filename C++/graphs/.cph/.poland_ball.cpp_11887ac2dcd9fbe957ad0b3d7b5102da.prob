@@ -1,0 +1,1 @@
+{"name":"Local: poland_ball","url":"d:\\Visual studio\\.vscode\\C++\\graphs\\poland_ball.cpp","tests":[{"id":1621919162414,"input":"5\n2 1 5 3 3","output":""},{"id":1621919224457,"input":"1\n1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Visual studio\\.vscode\\C++\\graphs\\poland_ball.cpp","group":"local","local":true}

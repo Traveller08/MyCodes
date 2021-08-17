@@ -1,0 +1,1 @@
+{"name":"Local: maximumwidth","url":"d:\\Visual studio\\.vscode\\C++\\CSES\\maximumwidth.cpp","tests":[{"id":1619324840220,"input":"5 3\nabbbc\nabc","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Visual studio\\.vscode\\C++\\CSES\\maximumwidth.cpp","group":"local","local":true}

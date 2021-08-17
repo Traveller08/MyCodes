@@ -1,0 +1,1 @@
+{"name":"Local: reversesort","url":"d:\\Visual studio\\.vscode\\C++\\reversesort.cpp","tests":[{"id":1616771117960,"input":"1\n5\n2 4 5 3 1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Visual studio\\.vscode\\C++\\reversesort.cpp","group":"local","local":true}

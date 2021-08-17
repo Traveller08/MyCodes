@@ -1,0 +1,1 @@
+{"name":"Local: minmax","url":"d:\\Visual studio\\.vscode\\C++\\fasti\\minmax.cpp","tests":[{"id":1615881152717,"input":"3\n10 20 30\n20 10 30 \n10 5 35","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Visual studio\\.vscode\\C++\\fasti\\minmax.cpp","group":"local","local":true}

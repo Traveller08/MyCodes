@@ -1,0 +1,1 @@
+{"name":"Local: potions","url":"d:\\Visual studio\\.vscode\\C++\\26\\5\\potions.cpp","tests":[{"id":1622215121347,"input":"6\n4 -4 1 -3 1 -3","output":""},{"id":1622215348368,"input":"10\n4 -4 -3 -1 -1 -1 1 1 1 1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Visual studio\\.vscode\\C++\\26\\5\\potions.cpp","group":"local","local":true}

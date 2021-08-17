@@ -1,0 +1,1 @@
+{"name":"Local: lks","url":"d:\\Visual studio\\.vscode\\C++\\lks.cpp","tests":[{"id":1617659124189,"input":"10 3\n6 3\n8 8\n4 6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Visual studio\\.vscode\\C++\\lks.cpp","group":"local","local":true}

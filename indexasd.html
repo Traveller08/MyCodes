@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>how many fingers i am holding up?</p>
+    <p id="ext"></p>
+    <input type="text" id="guess" />
+    <button id="check" onclick="checker()">guess</button>
+    <script type="text/javascript">
+     var numberofguess = 1;
+        var gotIt = false;
+        var check = Math.floor(Math.random()*6+1);
+      function checker() {   
+        var mynumber = document.getElementById("guess").value;
+          if (check == mynumber) {
+            gotIt = true;
+            document.getElementById('text').innerHTML="You won";
+            document.getElementById('ext').innerHTML="got it " + check + " it took me " + numberofguess + " guesses ";
+            var newgame=confirm("Start a new game");
+            if(newgame)location.reload();
+            else document.write("Game Over");
+            return;
+          } 
+          else {
+            numberofguess=numberofguess+1;
+            document.getElementById('ext').innerHTML="Sorry! Try again...";
+          }
+        
+      }
+    </script>
+  </body>
+</html>

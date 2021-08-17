@@ -1,0 +1,1 @@
+{"name":"Local: nearest_smaller_values","url":"d:\\Visual studio\\.vscode\\C++\\contests\\nearest_smaller_values.cpp","tests":[{"id":1619930178112,"input":"8\n2 5 1 4 8 3 2 5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Visual studio\\.vscode\\C++\\contests\\nearest_smaller_values.cpp","group":"local","local":true}

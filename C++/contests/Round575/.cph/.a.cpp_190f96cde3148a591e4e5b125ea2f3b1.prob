@@ -1,0 +1,1 @@
+{"name":"Local: a","url":"d:\\Visual studio\\.vscode\\C++\\contests\\Round575\\a.cpp","tests":[{"id":1621951313371,"input":"4\n1 3 4\n1 10 100\n10000000000000000 10000000000000000 10000000000000000\n23 34 45","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Visual studio\\.vscode\\C++\\contests\\Round575\\a.cpp","group":"local","local":true}

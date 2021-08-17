@@ -1,0 +1,1 @@
+{"name":"Local: fairdivision","url":"d:\\Visual studio\\.vscode\\C++\\contests\\fairdivision.cpp","tests":[{"id":1619781172441,"input":"5\n2\n1 1\n2\n1 2\n4\n1 2 1 2\n3\n2 2 2\n3\n2 1 2\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Visual studio\\.vscode\\C++\\contests\\fairdivision.cpp","group":"local","local":true}

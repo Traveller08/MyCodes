@@ -1,0 +1,1 @@
+{"name":"Local: benchpress","url":"d:\\Visual studio\\.vscode\\C++\\contests\\benchpress.cpp","tests":[{"id":1619793548165,"input":"3\n2 5 10 \n2 2\n7 100 50\n100 10 10 10 10 10 90 \n6 100 40 \n10 10 10 10 10 10","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Visual studio\\.vscode\\C++\\contests\\benchpress.cpp","group":"local","local":true}

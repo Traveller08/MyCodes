@@ -1,0 +1,1 @@
+{"name":"Local: asdfg","url":"d:\\Visual studio\\.vscode\\C++\\asdfg.cpp","tests":[{"id":1616854642869,"input":"3\n60 3 5\n60 3 4\n400 20 21","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Visual studio\\.vscode\\C++\\asdfg.cpp","group":"local","local":true}

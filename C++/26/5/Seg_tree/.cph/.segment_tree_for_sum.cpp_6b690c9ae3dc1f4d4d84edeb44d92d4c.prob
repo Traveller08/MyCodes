@@ -1,0 +1,1 @@
+{"name":"Local: segment_tree_for_sum","url":"d:\\Visual studio\\.vscode\\C++\\26\\5\\Seg_tree\\segment_tree_for_sum.cpp","tests":[{"id":1622564375180,"input":"7 5\n1 2 3 4 5 6 7","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Visual studio\\.vscode\\C++\\26\\5\\Seg_tree\\segment_tree_for_sum.cpp","group":"local","local":true}

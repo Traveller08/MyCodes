@@ -1,0 +1,1 @@
+{"name":"Local: worldrecord","url":"d:\\Visual studio\\.vscode\\C++\\worldrecord.cpp","tests":[{"id":1617649383788,"input":"3\n1.0 1.0 1.0 10.45\n1.0 1.0 1.0 10.44\n1.0 1.0 0.9 10.44","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Visual studio\\.vscode\\C++\\worldrecord.cpp","group":"local","local":true}

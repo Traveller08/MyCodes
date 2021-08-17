@@ -1,0 +1,1 @@
+{"name":"Local: xor","url":"d:\\Visual studio\\.vscode\\C++\\fasti\\endsem\\xor.cpp","tests":[{"id":1616357077631,"input":"2\n4 6 6\n7 8 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Visual studio\\.vscode\\C++\\fasti\\endsem\\xor.cpp","group":"local","local":true}

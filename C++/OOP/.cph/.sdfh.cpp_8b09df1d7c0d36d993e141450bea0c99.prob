@@ -1,0 +1,1 @@
+{"name":"Local: sdfh","url":"d:\\Visual studio\\.vscode\\C++\\OOP\\sdfh.cpp","tests":[{"id":1618584296150,"input":"5\n3\nTMT\n3\nMTT\n6\nTMTMTT\n6\nTMTTTT\n6\nTTMMTT","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Visual studio\\.vscode\\C++\\OOP\\sdfh.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: strongLang","url":"d:\\Visual studio\\.vscode\\C++\\strongLang.cpp","tests":[{"id":1617645538325,"input":"3\n5 5\n*a*b***c****fg*h***j****jgjjfjmvbm*******\n5 5\n*a***\n5 1\nabcde","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Visual studio\\.vscode\\C++\\strongLang.cpp","group":"local","local":true}

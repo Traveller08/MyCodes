@@ -1,0 +1,120 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Author : Ankit Chaudhary ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#include <bits/stdc++.h>
+using namespace std;
+#define fast()                        \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(NULL);                    \
+    cout.tie(NULL);
+#define ll long long int
+#define pb push_back
+#define pf push_front
+#define um(a, b, name) unordered_map<a, b> name;
+#define rep(i, a, b, k) for (ll i = a; i < b; i += k)
+#define mem0(a) memset(a, 0, sizeof(a))
+#define w(t) while (t--)
+#define array(arr, n) \
+    ll arr[n];        \
+    rep(i, 0, n, 1) cin >> arr[i];
+#define ni1(t) \
+    ll t;      \
+    cin >> t;
+#define ni2(a, b) \
+    ll a, b;      \
+    cin >> a >> b
+#define ni3(a, b, c) \
+    ll a, b, c;      \
+    cin >> a >> b >> c
+#define ni4(a, b, c, d) \
+    ll a, b, c, d;      \
+    cin >> a >> b >> c >> d
+#define ni5(a, b, c, d, e) \
+    ll a, b, c, d, e;      \
+    cin >> a >> b >> c >> d >> e
+#define ni6(a, b, c, d, e, f) \
+    ll a, b, c, d, e, f;      \
+    cin >> a >> b >> c >> d >> e >> f
+#define ns(s) \
+    string s; \
+    cin >> s
+#define mod 1e9 + 7
+#define siz1 200005
+#define siz2 1000005
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                                            
+----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+bool comp(pair<ll, ll> a, pair<ll, ll> b) { return a.second > b.second; }
+void solve()
+{
+    ni2(n, k);
+    array(arr, n);
+    vector<ll> ans;
+    vector<pair<ll, ll>> cop;
+    unordered_map<ll, ll> mp;
+    
+    rep(i, 0, n, 1) mp[arr[i]]++;
+    for (auto it = mp.begin(); it != mp.end(); ++it)
+    {
+        cop.push_back(make_pair(it->first, it->second));
+    }
+    sort(cop.begin(), cop.end(), comp);
+  
+    if (cop.size() < k)
+    {
+        ll count = 0;
+        for (auto it = cop.begin(); it != cop.end(); ++it)
+        {
+            if (count < k)
+            {
+                ans.push_back(it->first);
+                count++;
+            }
+        }
+    }
+    else
+    {
+        ll temp = (cop.begin()->second) / k;
+
+        ll count = 0;
+        ll minm = 10000000000000;
+        for (auto it = cop.begin(); it != cop.end(); ++it)
+        {  
+            bool found = 0;
+            if (count < k)
+            {//cout<<it->first<<" "<<it->second<<endl;
+                ans.push_back(it->first);
+                minm = min(minm, it->second);
+                count++;
+            }
+            else
+                break;
+        }
+      //  cout<<minm<<" "<<temp<<" "<<endl;
+        if (temp > minm)
+        {
+            for (ll i = 0; i < k; i++)
+                cout << cop.begin()->first << " ";
+        }
+        else
+        {
+            for (auto p : ans)
+            {
+                cout << p << " ";
+            }
+        }
+
+        cout << endl;
+    }
+}
+int main()
+{
+    fast();
+    solve();
+
+    return 0;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------
+                                                                                                                    
+--------------------------------------------------------------------------------------------------------------------*/

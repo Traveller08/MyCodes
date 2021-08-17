@@ -1,0 +1,1 @@
+{"name":"Local: overlappingsegments","url":"d:\\Visual studio\\.vscode\\C++\\OOP\\overlappingsegments.cpp","tests":[{"id":1618462587094,"input":"1\n3 3\n1 3\n2 4\n6 8\n1 5\n5 5\n4 6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Visual studio\\.vscode\\C++\\OOP\\overlappingsegments.cpp","group":"local","local":true}

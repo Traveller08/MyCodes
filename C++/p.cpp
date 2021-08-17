@@ -1,0 +1,41 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define fast() ios_base::sync_with_stdio(false); cin.tie(NULL);cout.tie(NULL);
+#define ll long long int
+#define pb push_back
+#define pf push_front
+#define rep(i,a,b) for(ll i=a;i<b;i++)
+#define mem0(a) memset(a,0,sizeof(a))
+#define w(t) while(t--)
+#define new_int_1(t) ll t;cin>>t;
+#define new_int_2(a,b) ll a,b;cin>>a>>b
+#define new_int_3(a,b,c) ll a,b,c;cin>>a>>b>>c
+#define new_int_4(a,b,c,d) ll a,b,c,d;cin>>a>>b>>c>>d
+#define new_int_6(a,b,c,d,e,f) ll a,b,c,d,e,f;cin>>a>>b>>c>>d>>e>>f
+#define new_str(s) string s;cin>>s
+int main(){
+ fast();
+new_int_1(t);
+  w(t){
+    new_str(s1);
+    new_str(s2);
+    ll maxmSame=INT_MIN;
+  
+      rep(start,0,s1.length()){
+        ll pre=0,count=0;
+      rep(i,start,s1.length()){
+        rep(j,pre,s2.length()){
+          if(s1[i]==s2[j]){
+            count++;
+            pre=j+1;
+          }
+        }
+      }
+      maxmSame=max(count,maxmSame);
+      }
+      ll maxmLen=max(s1.length(),s2.length());
+      cout<<maxmLen-maxmSame<<"\n";
+    
+ }
+ return 0;
+}

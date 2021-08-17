@@ -1,0 +1,117 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define fast() ios_base::sync_with_stdio(false); cin.tie(NULL);cout.tie(NULL);
+#define ll long long int
+#define pb push_back
+#define mp make_pair
+#define pf push_front
+#define rep(i,a,b,k) for(ll i=a;i<b;i+=k)
+#define rept(i,a,b) for(auto i=a;i!=b;++i)
+#define drep(i,a,b,k) for(ll i=a;i>=b;i--)
+#define mem0(a) memset(a,0,sizeof(a))
+#define w(t) while(t--)
+#define array(arr,n) vector<ll>arr(n);for(ll i=0;i<n;i++)cin>>arr[i];
+#define ni1(t) ll t;cin>>t;
+#define ni2(a,b) ll a,b;cin>>a>>b
+#define ni3(a,b,c) ll a,b,c;cin>>a>>b>>c
+#define ni4(a,b,c,d) ll a,b,c,d;cin>>a>>b>>c>>d
+#define ni5(a,b,c,d,e) ll a,b,c,d,e;cin>>a>>b>>c>>d>>e
+#define ni6(a,b,c,d,e,f) ll a,b,c,d,e,f;cin>>a>>b>>c>>d>>e>>f
+#define ns(s) string s;cin>>s
+#define getmax(a,b) a>b?a:b
+#define getmin(a,b) a<b?a:b
+#define print(x) for(auto ele:x)cout<<ele<<'	';cout<<endl;
+#define printp(x)  for(auto ele:x)cout<<ele.firs<<'	'<<ele.second<<endl;
+#define mod 1000000007
+#define siz1 200005
+#define siz2 1000005
+#define khatam return 0
+#define all(x) x.begin(),x.end()
+typedef vector<ll> vl;
+typedef vector<pair<ll,ll>> vll;
+typedef unordered_map<ll,ll> ull;
+typedef map<ll,ll> mll;
+
+
+void solve()
+   {
+       ni1(n);
+       ns(s);
+       map<char,ll>mpp;
+       rep(i,0,n,1)mpp[s[i]]++;
+       bool found=0;
+       char ans;
+       for(char i='a';i<='z';i++)
+       {
+           if(mpp[i]==0)
+           {
+             ans=i;
+             found=true;
+             break;
+           }
+       }
+       if(found)cout<<ans<<endl;
+       else
+       {
+            char a='a',b='a';
+            string fin;
+           while (!found)
+           {
+                bool ts=0;
+              rep(i,0,n-1,1)
+                {
+                   if(s[i]==a and s[i+1]==b)
+                   {
+                      ts=true;
+                      break;
+                   }
+                 }
+                 if(!ts)
+                 {   fin.pb(a);fin.pb(b);
+                     found=true;
+                     break;
+                 }
+                 b++;
+                 if(b>'z')b='a',a++;
+                 if(a=='z' and b=='z')break;
+           }
+           if(!found)
+           {
+                char a='a',b='a',c='a';
+            
+           while (!found)
+           {
+                bool ts=0;
+              rep(i,0,n-2,1)
+                {
+                   if(s[i]==a and s[i+1]==b and s[i+2]==c)
+                   {
+                      ts=true;
+                      break;
+                   }
+                 }
+                 if(!ts)
+                 {
+                     fin.pb(a);fin.pb(b);fin.pb(c);
+                     found=true;
+                     break;
+                 }
+                 c++;
+                 if(c>'z')c='a',b++;
+                 if(b>'z')b='a',c='a',a++;
+                 if(a=='z' and b=='z' and c=='z')break;
+           }
+         
+       }
+      cout<<fin<<endl;
+   }
+   }
+int main(){
+   fast();
+   ni1(t);
+       w(t)
+       {
+          solve();
+       }
+   khatam; 
+}
